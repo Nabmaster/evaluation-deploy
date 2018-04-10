@@ -1,9 +1,9 @@
 {
-  "name": "evaluation-deploy",
+  "name": "evaluation-nabil",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "ng build --prod --base-href /eval/",
+    "build": "ng build --nab --base-href /evaluation-nabil/",
     "test": "ng serve --env=nab",
     "deploy": "ngh --repo=https://github.com/Nabmaster/evaluation-nabil",
     "publish": "npm run build && npm run deploy"
