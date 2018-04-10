@@ -1,4 +1,4 @@
 export const environment = {
-	production: false,
+	production: true,
 	apiUrl: '/evaluation-nabil/assets/data/poc.json'
 };
