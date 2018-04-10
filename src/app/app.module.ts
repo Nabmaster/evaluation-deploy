@@ -19,7 +19,8 @@ import { AppComponent } from './app.component';
 		FormsModule,
 		HttpClientModule,
 		MatButtonModule,
-		MatCheckboxModule
+		MatCheckboxModule,
+		MatCardModule
 	],
 	providers: [
 		BookService
