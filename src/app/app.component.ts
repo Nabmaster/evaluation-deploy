@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { BookService } from './book.service';
 
+import { environment as ENV } from '../environments/environment';
+
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
